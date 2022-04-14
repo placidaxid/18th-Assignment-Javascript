@@ -9,35 +9,20 @@
     <script src="pla.js"></script>
 </head>
 <body>
-    <script>
-        function myfun()
-        {
-            var a=document.getElementById('number').value;
-            var b=document.getElementById('numbers').value;
-            document.getElementById('result').innerHTML=parseInt(a) + parseInt(b);
-        }
-        function myfun1()
-        {
-            var a=document.getElementById('number').value;
-            var b=document.getElementById('numbers').value;
-            document.getElementById('result').innerHTML=(a*b);
-        }
-        function myfun2()
-        {
-            var a=document.getElementById('number').value;
-            var b=document.getElementById('numbers').value;
-            document.getElementById('result').innerHTML=(a/b);
-        }
-    </script>
-    First Number:
+    
+    <div class="placid">
+    <h1>First Number:</h1>
     <input type="number" value="" id="number"><br><br>
-    Second Number:
+    <h1>Second Number:</h1>
     <input type="number" value="" id="numbers"><br><br>
     <input type="submit" value="addition" onclick="return myfun()">
     <input type="submit" value="multiply" onclick="return myfun1()">
     <input type="submit" value="divide" onclick="return myfun2()"><br><br>
     <b>The Result is: </b><br><br>
     <span id="result"></span>
+
+    </div>
+    
         <!--<script type="text/javascript">
            // alert('hello world');
            // console.log("Hello placid");
