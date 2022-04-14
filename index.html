@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Introduction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="pla.js"></script>
+</head>
+<body>
+    <script>
+        function myfun()
+        {
+            var a=document.getElementById('number').value;
+            var b=document.getElementById('numbers').value;
+            document.getElementById('result').innerHTML=(a+b);
+        }
+        function myfun1()
+        {
+            var a=document.getElementById('number').value;
+            var b=document.getElementById('numbers').value;
+            document.getElementById('result').innerHTML=(a*b);
+        }
+        function myfun2()
+        {
+            var a=document.getElementById('number').value;
+            var b=document.getElementById('numbers').value;
+            document.getElementById('result').innerHTML=(a/b);
+        }
+    </script>
+    First Number:
+    <input type="number" value="" id="number"><br><br>
+    Second Number:
+    <input type="number" value="" id="numbers"><br><br>
+    <input type="submit" value="addition" onclick="return myfun()">
+    <input type="submit" value="multiply" onclick="return myfun1()">
+    <input type="submit" value="divide" onclick="return myfun2()"><br><br>
+    <b>The Result is: </b><br><br>
+    <span id="result"></span>
+        <!--<script type="text/javascript">
+           // alert('hello world');
+           // console.log("Hello placid");
+           // document.write("<h1>Welcome to Javascript</h1>");
+           let a = prompt("Welcome, Please enter your first number", "");
+           let b = prompt("Welcome, Please enter your second number", "");
+           var c = parseInt(a) + parseInt(b);
+           console.log("the sum of "+a+" and "+b+" is: "+c);
+        </script>-->
+</body>
+</html>
