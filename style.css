@@ -14,12 +14,11 @@
         document.getElementById("demo1").innerHTML = 5 + 6;
         </script>*/
 
-        *{
-            background-color: rgb(161, 206, 147);
-        }
+        
 
         .placid{
-            padding-top: 15%;
+            background-color: rgb(122, 141, 106);
+            padding-top: 5%;
             text-align: center;
             font-family: sans-serif;
             font-size: medium;
